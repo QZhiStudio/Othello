@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>“QZhi Othello”帮助</title>
+    </head>
+    <body>
+        <h1><img src="./QZhi.png" align="left" />“QZhi Othello”帮助</h1>
+        <hr />
+
+        <h2>“QZhi Othello”概述</h2>
+        <p>该游戏是双人对决的棋类游戏，其目标是通过放置、翻转棋子来占据棋盘空间。当双方都无法放置新棋子时，占据棋盘面积更大的一方获胜。</p>
+        <hr />
+
+        <h2>“QZhi Othello”玩法</h2>
+        <ol>
+            <li>在<a href="javascript:void(0)" onclick="document.getElementById('game_menu').style.display=''">“游戏”菜单</a>上，选择适合的等级，单击“开局”。</li>
+            <p id="game_menu" style="display: none;"><img src="./GameMenu.png" /></p>
+            <li>单击<a href="javascript:void(0)" onclick="document.getElementById('board').style.display=''">棋盘</a>上有灰色棋子（作为提示）的格子，放置棋子。游戏将会自动翻转所夹的对方棋子，获取分数。</li>
+            <p id="board" style="display: none;" ><img src="./Board.png" /></p>
+            <li>双方交替下棋，直至决出胜负。</li>
+        </ol>
+        <h3>注意</h3>
+        <ul>
+            <li>游戏时请注意当前玩家，因为当玩家无处放置棋子时，游戏将会自动跳过该玩家，并发出钢琴提示音（中央 C）。</li>
+            <li>本游戏目前不支持悔棋功能，请在落子前仔细思考。</li>
+        </ul>
+        <hr />
+
+        <h2>策略与技巧</h2>
+        <ul>
+            <li>尽量争取占据四个角上的位置。</li>
+            <li>寻找放置一颗棋子而能翻转多个方向棋子的位置。</li>
+            <li>设法使对方无处可下。</li>
+        </ul>
+        <hr />
+
+        <p align="center">Copyright 2025 QZhi Studio</p>
+
+    </body>
+</html>
